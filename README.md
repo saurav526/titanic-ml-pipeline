@@ -32,4 +32,13 @@ scikit-learn
 pandas
 joblib
 
+ Deploy on Streamlit Cloud
+ 1. Go to share.streamlit.io
+2. Sign in with GitHub (saurav526)
+3. New app → select "titanic-ml-pipeline"
+4. Branch: main
+5. Main file: app.py
+6. Click Deploy!
+
+
 Author- Saurav Kumar (@Saurav526)
