@@ -362,3 +362,7 @@ elif page == "📋 Evaluate":
         y_pred = model.predict(X)
         report = classification_report(d['Survived'], y_pred, output_dict=True)
         st.dataframe(pd.DataFrame(report).transpose().round(3), use_container_width=True)
+
+        st.subheader("Confusion Matrix")
+        cm = confusion_matrix(d['Survived'], y_pred)
+        
